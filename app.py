@@ -6,7 +6,7 @@ import joblib
 pn.extension()
 
 # Load model
-model = joblib.load("lgbm_demand_model.pkl")
+model = joblib.load("XGBoost_optimized_model.pkl")
 
 # UI widgets
 bar = pn.widgets.Select(name='Bar Name', options=['Bar A', 'Bar B'])
